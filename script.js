@@ -33,5 +33,7 @@ box.rotation.y += 0.01;
 renderer.render(scene, camera);
 }
 
+const orbit = new OrbitControls(camera, renderer.domElement);
+
 renderer.setAnimationLoop(animate);
 renderer.render(scene, camera);
