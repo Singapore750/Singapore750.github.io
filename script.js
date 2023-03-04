@@ -1,4 +1,5 @@
 const renderer = new THREE.WebGLRenderer
+import {OrbitControls} from '.../modules/OrbitControls.js';
 
 renderer.setSize(window.innerWidth, window.innerHeight);
 
